@@ -1,11 +1,11 @@
 "use strict";
 
-var path = window.location.pathname.split('/')[2];
-console.log(path);
-var assignment = document.querySelector('#assignment');
-var admin = document.querySelector('#admin');
-
 function currentPage() {
+  var path = window.location.pathname.split('/')[2];
+  console.log(path);
+  var assignment = document.querySelector('#assignment');
+  var admin = document.querySelector('#admin');
+
   if (path === 'assignment.html') {
     window.onload = function () {
       assignment.setAttribute('class', 'nav-link active');
