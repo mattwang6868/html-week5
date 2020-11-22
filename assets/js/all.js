@@ -1,6 +1,6 @@
 "use strict";
 
-var path = window.location.pathname.split('/')[1];
+var path = window.location.pathname.split('/')[2];
 console.log(path);
 var assignment = document.querySelector('#assignment');
 var admin = document.querySelector('#admin');
