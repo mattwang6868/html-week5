@@ -1,0 +1,71 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week5/logo-ANSWER.svg");
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 151px;
+    height: 40px;
+    display: block;
+    margin-left: 34px;
+}
+.sidebar{
+    background-color: #EDF4EE;
+    span{
+        margin-right: 19px;
+    }
+}
+.nav{
+    li{
+        box-sizing: border-box;
+        &:hover{
+            position: relative;
+            transition: all 0.5s;
+        }
+    }
+    a:hover{
+        color: #2A8356;
+    }
+}
+.nav-link{
+    padding-left: 34px !important;
+    color: #000;
+    position: relative;
+    width: 100%;
+    &::before{
+        content: "";
+        width: 40px;
+        height: 40px;
+        border-left:5px solid #2A8356;
+        position: absolute;
+        z-index: 1;
+        top: 0%;
+        left: 0%;
+        transform: scale(0);
+        transition-property: transform;
+        transition: 300ms ease-out;
+    }
+    &:hover::before{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.nav-link.active{
+    color: #2A8356;
+    &::before{
+        transform: scale(1);
+    }
+}
+
+.profile{
+    padding-left: 34px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    a{
+        color: $dark-green;
+    }
+}

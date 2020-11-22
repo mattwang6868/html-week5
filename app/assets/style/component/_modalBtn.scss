@@ -1,0 +1,16 @@
+.modalBtn{
+    display: flex;
+    justify-content: flex-end;
+    .outLineBtn{
+        margin-right: 16px;
+        color: $dark-green;
+        border: 1px solid $dark-green;
+        &:hover{
+            background-color: $dark-green;
+            color: #fff;
+        }
+    }
+    .solidBtn{
+        background-color: $dark-green;
+    }
+}

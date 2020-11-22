@@ -1,0 +1,19 @@
+.control-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+        color: $dark-green;
+    }
+    .markBtn{
+        color: $dark-green;
+        border: 1px solid $dark-green;
+        &:hover{
+            background-color: $dark-green;
+            color: #fff;
+        }
+    }
+    .replyBtn{
+        background-color: $dark-green;
+    }
+}

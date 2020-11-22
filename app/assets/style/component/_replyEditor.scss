@@ -1,0 +1,10 @@
+.replyEditor{
+    position:absolute !important; 
+    bottom:-10px !important;
+    .material-icons{
+        line-height: 33px;
+    }
+    .reply-text{
+        resize: none;
+    }
+}
