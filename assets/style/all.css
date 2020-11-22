@@ -1,0 +1,271 @@
+.text-black {
+  color: #000 !important; }
+
+.bg-color {
+  background-color: #EDF4EE !important; }
+
+.bd-color {
+  border-color: #CDDDCD !important; }
+
+.material-icons {
+  vertical-align: bottom; }
+
+.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.filterBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.control-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .control-bar span {
+    color: #2A8356; }
+  .control-bar .markBtn {
+    color: #2A8356;
+    border: 1px solid #2A8356; }
+    .control-bar .markBtn:hover {
+      background-color: #2A8356;
+      color: #fff; }
+  .control-bar .replyBtn {
+    background-color: #2A8356; }
+
+.replyEditor {
+  position: absolute !important;
+  bottom: -10px !important; }
+  .replyEditor .material-icons {
+    line-height: 33px; }
+  .replyEditor .reply-text {
+    resize: none; }
+
+.modalBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .modalBtn .outLineBtn {
+    margin-right: 16px;
+    color: #2A8356;
+    border: 1px solid #2A8356; }
+    .modalBtn .outLineBtn:hover {
+      background-color: #2A8356;
+      color: #fff; }
+  .modalBtn .solidBtn {
+    background-color: #2A8356; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.logo {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week5/logo-ANSWER.svg");
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 151px;
+  height: 40px;
+  display: block;
+  margin-left: 34px; }
+
+.sidebar {
+  background-color: #EDF4EE; }
+  .sidebar span {
+    margin-right: 19px; }
+
+.nav li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .nav li:hover {
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.nav a:hover {
+  color: #2A8356; }
+
+.nav-link {
+  padding-left: 34px !important;
+  color: #000;
+  position: relative;
+  width: 100%; }
+  .nav-link::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-left: 5px solid #2A8356;
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition: 300ms ease-out;
+    -o-transition: 300ms ease-out;
+    transition: 300ms ease-out; }
+  .nav-link:hover::before {
+    opacity: 1;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+
+.nav-link.active {
+  color: #2A8356; }
+  .nav-link.active::before {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+
+.profile {
+  padding-left: 34px; }
+  .profile img {
+    width: 40px;
+    height: 40px; }
+  .profile a {
+    color: #2A8356; }
+
+.media img {
+  width: 40px;
+  height: 40px; }
+
+.media .media-body {
+  border-bottom: 1px solid #CDDDCD; }
+
+.media .style-disc {
+  list-style-type: disc; }
+
+.media .material-icons {
+  vertical-align: bottom; }
+
+.media a {
+  padding: 8px 16px 8px 12px;
+  border: 1px solid #CDDDCD;
+  display: inline-block; }
+
+.table .material-icons.arrow {
+  color: #2A8356; }
+
+.table a {
+  color: #000; }
+  .table a:hover {
+    color: #2A8356; }
+
+.page .step {
+  color: #000;
+  padding: 4px !important; }
+
+.page .number {
+  color: #000;
+  padding: 6px 11.5px 6px 11.5px !important; }
+
+.page .active {
+  background: #2A8356 !important;
+  color: #fff; }
+
+.select-bg {
+  position: relative !important; }
+  .select-bg::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    height: 80%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background-color: #2A8356 !important;
+    opacity: 0.1; }
+
+.modal-arrorUp {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #fff; }
+
+.verifiedCheckBox {
+  position: relative; }
+  .verifiedCheckBox::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    top: 55%;
+    left: -0.35%;
+    -webkit-transform: translateY(-55%);
+        -ms-transform: translateY(-55%);
+            transform: translateY(-55%);
+    border: 1px solid #2A8356;
+    background-color: #fff;
+    border-radius: 50%; }
+
+.verifiedCheckBox.actived {
+  position: relative; }
+  .verifiedCheckBox.actived::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    top: 55%;
+    left: -0.35%;
+    -webkit-transform: translateY(-55%);
+        -ms-transform: translateY(-55%);
+            transform: translateY(-55%);
+    border: 1px solid #2A8356;
+    background-color: #2A8356;
+    border-radius: 50%; }
+  .verifiedCheckBox.actived::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    z-index: 3;
+    top: 25%;
+    left: 0.5%;
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    border-radius: 0%;
+    -webkit-transform: translateY(-55%);
+        -ms-transform: translateY(-55%);
+            transform: translateY(-55%);
+    -webkit-transform: rotate(-50deg);
+        -ms-transform: rotate(-50deg);
+            transform: rotate(-50deg); }
+
+.text-waring {
+  color: #E3006E; }
+
+/*# sourceMappingURL=all.css.map */

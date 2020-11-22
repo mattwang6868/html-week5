@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Assignment</title>
+	<link rel="stylesheet" href="./assets/style/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			
+			<div class="col-md-2 pl-0 position-fixed h-100">
+				<div class="sidebar h-100 d-flex flex-column pt-5">
+						<a href="#" class="logo mb-4">
+							<h1>ANSWER</h1>
+						</a>
+						
+						<ul class="nav list-unstyled flex-column mb-auto font-weight-bolder">
+							<li class="nav-item mb-3">
+								<a href="#" class="nav-link ">
+									<span class="material-icons mr-4">assessment</span>
+									Dashboard
+								</a>
+							</li>
+							<li class="nav-item mb-3">
+								<a href="#" class="nav-link ">
+									<span class="material-icons mr-4">question_answer</span>
+									Question
+								</a>
+							</li>
+							<li class="nav-item mb-3 ">
+								<a href="assignment.html" class="nav-link" id='assignment'>
+									<span class="material-icons mr-4">assignment</span>
+									Assignment
+								</a>
+							</li>
+							<li class="nav-item mb-3">
+								<a href="#" class="nav-link ">
+									<span class="material-icons mr-4">video_library</span>
+									Course
+								</a>
+							</li>
+							<li class="nav-item mb-3">
+								<a href="admin.html" class="nav-link " id="admin">
+									<span class="material-icons mr-4">supervisor_account</span>
+									Admin
+								</a>
+							</li>
+							<li class="nav-item mb-3">
+								<a href="#" class="nav-link">
+									<span class="material-icons mr-4">settings</span>
+									Settings
+								</a>
+							</li>
+						</ul>
+						
+					<div class="profile d-flex fixed-bottom mb-5 ">
+						<img class="img-fluid rounded-circle mr-3 profile-img"
+							src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true">
+						<div class="infor d-flex flex-column">
+							<a href="#">
+								Andy Chen
+							</a>
+							<small>
+								andy0401@mail.com
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-10 ml-auto h-100">
+				<div class="main p-5 ">
+					
+<section>
+    <div class="topBar mb-5">
+        <h2 class="mr-3 mb-0">Assignment</h2>
+        <div class="form-group mb-0">
+            <select class="form-control border-0 font-weight-bolder text-black" id="exampleFormControlSelect1">
+                <option value="">All Courses</option>
+            </select>
+        </div>
+        <a href="#" class="ml-auto"><span class="material-icons text-black">search</span></a>
+        <a href="#" class="ml-3"><span class="material-icons text-black">notifications_active</span></a>
+    </div>
+    <div class="filterBar">
+        <div class="form-group mb-0">
+            <select class="form-control border-0 font-weight-bold text-black mr-auto pl-0" id="exampleFormControlSelect1">
+                <option value="" class=" h6">All (4)</option>
+            </select>
+        </div>
+        <small class="text-black-50">
+            2 comments
+        </small>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <ul class="list-group">
+                    <li class="list-group-item bg-color bd-color">
+                        <div class="list-title d-flex justify-content-between">
+                            <small>Chapter Assignment 2</small>
+                            <small>4 hrs ago</small>
+                        </div>
+                        <div class="list-content d-flex justify-content-between">
+                            <p class="font-weight-bolder h5 mb-0">Please check this file…</p>
+                            <small class="text-black-50">Emily Wang</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item bd-color">
+                        <div class="list-title d-flex justify-content-between">
+                            <small>Chapter Assignment 1</small>
+                            <small class="text-black-50">12 hrs ago</small>
+                        </div>
+                        <div class="list-content d-flex justify-content-between">
+                            <p class="font-weight-bolder h5 mb-0">My Homework</p>
+                            <small class="text-black-50">David Xu</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item bd-color">
+                        <div class="list-title d-flex justify-content-between">
+                            <small>Final Assignment</small>
+                            <small class="text-black-50">18 hrs ago</small>
+                        </div>
+                        <div class="list-content d-flex justify-content-between">
+                            <p class="font-weight-bolder h5 mb-0">Have a problem with this…</p>
+                            <small class="text-black-50">Tony Wei</small>
+                        </div>
+                    </li>
+                    <li class="list-group-item bd-color">
+                        <div class="list-title d-flex justify-content-between">
+                            <small>Final Assignment</small>
+                            <small>19 hrs ago</small>
+                        </div>
+                        <div class="list-content d-flex justify-content-between">
+                            <p class="font-weight-bolder h5 mb-0">Did I do it right?</p>
+                            <small>Christina Lin</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="commtent position-relative">
+                <div class="card bd-color mb-4">
+                    <div class="card-header bg-color d-flex align-items-center">
+                        <div class="list-content">
+                            <small>Chapter Assignment 2 / HTML&CSS</small>
+                            <p class="font-weight-bolder h5 mb-0">Please check this file for me, thanks!</p>
+                        </div>
+                        <div class="btn-group ml-auto">
+                            <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="material-icons">more_vert</span>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Delete</a>
+                              <a class="dropdown-item" href="#">Edit</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="card-body pb-0 bd-color">
+                        <ul class="list-unstyled mb-0">
+                            <li class="media mb-3">
+                                <img class="mr-3 img-fluid rounded-circle" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true">
+                                <div class="media-body pb-3">
+                                    <h5 class="font-weight-bolder mb-0">Emily Wang</h5>
+                                    <small>10:38 AM (4 hours ago)</small>
+                                    <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: 
+                                        Why in the following code the height of the <code class="bg-color">div</code> is bigger than the height of the <code class="bg-color">img</code> ? 
+                                        There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                                    <a href="#" class="bg-color text-black font-weight-bolder" ><span class="material-icons">
+                                        attach_file
+                                        </span>HW-2-David.zip
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img class="mr-3 img-fluid rounded-circle" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true">
+                                <div class="media-body pb-3 border-0">
+                                    <h5 class="font-weight-bolder mb-0">Andy Chen (You)</h5>
+                                    <small>13:24 AM (1 hours ago)</small>
+                                    <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. 
+                                        <br><br>You can:
+                                    </p>    
+                                    <ul class="list-unstyled pl-4">
+                                        <li class="style-disc">adjust the <code class="bg-color">vertical-align</code> of the image to position it elsewhere (e.g. the <code class="bg-color">middle</code> )</li>
+                                        <li class="style-disc">change the <code class="bg-color">display</code> so it isn’t inline.</li>
+                                    </ul> 　
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="control-bar">
+                    <div>
+                        <a href="#"><span class="material-icons">navigate_before</span></a>
+                        <a href="#"><span class="material-icons">navigate_next</span></a>
+                    </div>
+                    <div>
+                        <button type="button" class="btn markBtn px-4 py-1">Mark as read</button>
+                        <button class="btn replyBtn text-white px-4 py-1" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Reply
+                        </button>
+                    </div> 
+                </div>
+                <div class="collapse replyEditor w-100" id="collapseExample">
+                    <div class="card w-100">
+                        <div class="card-header d-flex align-items-center bg-color">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle border-0 bg-color text-black font-weight-bolder" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Body Text
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <ul class="d-flex list-unstyled mb-0"> 
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">format_bold</span></a></li>
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">format_italic</span></a></li>
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">format_list_bulleted</span></a></li>
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">format_list_numbered</span></a></li>
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">photo_size_select_actual</span></a></li>
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">link</span></a></li>
+                            <li class=" mr-4"><a href="#" class="text-black d-block"><span class="material-icons">code</span></a></li>
+                        </ul>
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                        <form action="index.html" method="post">
+                            <textarea class="border-0 reply-text w-100" name="reply-text" id="reply-text" cols="" rows="7" placeholder="Reply an answer…"></textarea>
+                        </form>
+                        <div class="modalBtn">
+                                <button class="btn outLineBtn px-4 py-1" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Cancel
+                                </button>
+                                <button type="button" class="btn solidBtn text-white px-4 py-1">Reply</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+		integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+		crossorigin="anonymous"></script>
+	<script src="./assets/js/vendors.js"></script>
+	<script src="./assets/js/all.js"></script>
+</body>
+
+</html>
